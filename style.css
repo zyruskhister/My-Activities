@@ -1,0 +1,88 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+/* Profile Image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+/* Header */
+header {
+  background: linear-gradient(135deg, #4a90e2, #0077b6);
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+header h1 span {
+  color: #ffdd57;
+}
+
+/* Sections */
+section {
+  padding: 3rem 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #0077b6;
+}
+
+/* Projects */
+.project-card {
+  background: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+#contact a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.resume img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 2px solid #333;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
