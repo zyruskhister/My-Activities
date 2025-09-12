@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Banner/Header */
+    .header {
+      border: 1px solid black;
+      text-align: center;
+      padding: 40px;
+    }
+
+    /* Container for sidebar and content */
+    .container {
+      display: flex;
+    }
+
+    /* Sidebar navigation */
+    .sidebar {
+      width: 200px;
+      border-right: 1px solid black;
+      padding: 15px;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+    }
+
+    .sidebar a {
+      display: block;
+      text-decoration: none;
+      color: black;
+      margin: 10px 0;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="header">
+    <img src="gojo.jpg" alt="Profile picture" width="1200" height="250">
+  </div>
+
+  <!-- Sidebar + Content -->
+  <div class="container">
+    <div class="sidebar">
+      <h3>Table of Contents</h3>
+      <a href="#">Home</a>
+      <a href="#">Resume</a>
+      <a href="#">Schedule</a>
+    </div>
+
+    <div class="content">
+      <h2>Welcome</h2>
+      <p>This is the main content area.</p>
+    </div>
+  </div>
+</body>
+</html>
